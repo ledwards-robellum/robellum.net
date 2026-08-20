@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  color: white;
+  background-color: black;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  list-style-type: none;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}
+li a:hover {
+  color: yellow;
+  cursor: pointer;
+}
+.title{
+  align-self: center;
+}
+.banner,
+.header,
+.container,
+.footer {
+  margin: 4px;
+  padding: 4px;
+  border: 2px solid white;
+}
+.banner,
+.footer {
+  text-align: center;
+}
