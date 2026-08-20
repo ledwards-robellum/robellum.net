@@ -28,7 +28,7 @@ li a:hover {
 .container,
 .footer {
   margin: 4px;
-  padding: 4px;
+  padding: 4px 32px;
   border: 2px solid white;
 }
 .banner,
