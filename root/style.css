@@ -18,7 +18,8 @@ li a {
   padding: 4px;
   border: 2px solid white;
 }
-li a:hover {
+li a:hover,
+#header-search:hover {
   color: yellow;
   cursor: pointer;
   border: 2px solid yellow;
@@ -47,6 +48,10 @@ li a:hover {
   color: white;
   background-color: black;
   border: 2px solid white;
+}
+#query:focus{
+  border: 2px solid yellow;
+  outline: none;
 }
 #header-search {
   height: 32px;
