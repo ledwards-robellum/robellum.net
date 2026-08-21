@@ -8,23 +8,25 @@ body {
 }
 ul {
   display: flex;
-  justify-content: center;
-  gap: 32px;
+  padding: 0;
   list-style-type: none;
 }
 li a {
   color: white;
   text-decoration: none;
+  margin: 4px;
+  padding: 4px;
+  border: 2px solid white;
 }
 li a:hover {
   color: yellow;
   cursor: pointer;
+  border: 2px solid yellow;
 }
 .title{
   align-self: center;
 }
 .banner,
-.header,
 .container,
 .footer {
   margin: 4px;
@@ -34,4 +36,22 @@ li a:hover {
 .banner,
 .footer {
   text-align: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+#query {
+  height: 32px;
+  margin: 8px 0px;
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+}
+#header-search {
+  height: 32px;
+  margin: 8px 4px;
+  color: white;
+  background-color: black;
+  border: 2px solid white;
 }
