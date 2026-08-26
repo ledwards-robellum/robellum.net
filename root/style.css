@@ -5,6 +5,7 @@ body {
   margin: 0;
   color: white;
   background-color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 ul {
   display: flex;
@@ -12,17 +13,17 @@ ul {
   list-style-type: none;
 }
 li a {
-  color: white;
-  text-decoration: none;
   margin: 4px;
   padding: 4px;
   border: 2px solid white;
+  color: white;
+  text-decoration: none;
 }
 li a:hover,
 #header-search:hover {
+  border: 2px solid yellow;
   color: yellow;
   cursor: pointer;
-  border: 2px solid yellow;
 }
 .title{
   align-self: center;
@@ -41,10 +42,11 @@ li a:hover,
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 #query {
-  height: 32px;
   margin: 8px 0px;
+  height: 31.2px;
   color: white;
   background-color: black;
   border: 2px solid white;
@@ -54,8 +56,8 @@ li a:hover,
   outline: none;
 }
 #header-search {
-  height: 32px;
-  margin: 8px 4px;
+  height: 31.2px;
+  margin: 4px;
   color: white;
   background-color: black;
   border: 2px solid white;
