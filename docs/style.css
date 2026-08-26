@@ -1,11 +1,14 @@
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   margin: 0;
   color: #a9b1d6;
   background-color: #1a1b26;
   font-family: "Lucida Console", "Courier New", monospace;
+}
+h2,
+h3 {
+  color: #7dcfff;
 }
 ul {
   display: flex;
@@ -21,13 +24,14 @@ li a {
 }
 li a:hover,
 #header-search:hover {
-  border: 2px solid #7dcfff;
+  border: 2px solid #9ece6a;
   color: #2ac3de;
   cursor: pointer;
 }
 .title{
   align-self: center;
   color: #9ece6a;
+  font-size: 2.5vw;
 }
 .banner,
 .container,
@@ -48,18 +52,18 @@ li a:hover,
 }
 #query {
   margin: 8px 0px;
-  height: 31.2px;
+  height: 32px;
   color: #a9b1d6;
   background-color: #1a1b26;
   border: 2px solid #a9b1d6;
 }
 #query:focus{
-  border: 2px solid yellow;
+  border: 2px solid #9ece6a;
   outline: none;
 }
 #header-search {
-  height: 31.2px;
-  margin: 4px;
+  margin-right: 4px;
+  height: 32px;
   color: #a9b1d6;
   background-color: #1a1b26;
   border: 2px solid #a9b1d6;
