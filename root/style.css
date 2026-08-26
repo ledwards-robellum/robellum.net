@@ -3,8 +3,8 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  color: white;
-  background-color: black;
+  color: #a9b1d6;
+  background-color: #1a1b26;
   font-family: "Lucida Console", "Courier New", monospace;
 }
 ul {
@@ -15,29 +15,31 @@ ul {
 li a {
   margin: 4px;
   padding: 4px;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid #a9b1d6;
+  color: #7dcfff;
   text-decoration: none;
 }
 li a:hover,
 #header-search:hover {
-  border: 2px solid yellow;
-  color: yellow;
+  border: 2px solid #7dcfff;
+  color: #2ac3de;
   cursor: pointer;
 }
 .title{
   align-self: center;
+  color: #9ece6a;
 }
 .banner,
 .container,
 .footer {
   margin: 4px;
   padding: 4px 32px;
-  border: 2px solid white;
+  border: 2px solid #a9b1d6;
 }
 .banner,
 .footer {
   text-align: center;
+  color: #ff9e64;
 }
 .header {
   display: flex;
@@ -47,9 +49,9 @@ li a:hover,
 #query {
   margin: 8px 0px;
   height: 31.2px;
-  color: white;
-  background-color: black;
-  border: 2px solid white;
+  color: #a9b1d6;
+  background-color: #1a1b26;
+  border: 2px solid #a9b1d6;
 }
 #query:focus{
   border: 2px solid yellow;
@@ -58,7 +60,7 @@ li a:hover,
 #header-search {
   height: 31.2px;
   margin: 4px;
-  color: white;
-  background-color: black;
-  border: 2px solid white;
+  color: #a9b1d6;
+  background-color: #1a1b26;
+  border: 2px solid #a9b1d6;
 }
