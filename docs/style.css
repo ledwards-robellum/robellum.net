@@ -31,7 +31,8 @@ li a:hover,
 .title{
   align-self: center;
   color: #9ece6a;
-  font-size: 2.5vw;
+  font-size: 5vw;
+  font-weight: bold;
 }
 .banner,
 .container,
