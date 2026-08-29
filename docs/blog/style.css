@@ -30,12 +30,11 @@ li a:hover,
 }
 .title{
   align-self: center;
-  color: #9ece6a;
+  color: #bb9af7;
   font-size: 5vw;
   font-weight: bold;
 }
 .banner,
-.container,
 .footer {
   margin: 4px;
   padding: 4px 32px;
@@ -50,6 +49,25 @@ li a:hover,
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 4px;
+  border: 2px solid #a9b1d6;
+}
+.box {
+  margin: 4px;
+  flex: 1 0 200px;
+  height: 200px;
+  border: 2px solid #a9b1d6;
+}
+.horizontal {
+  flex-direction: row;
+}
+.centered {
+  justify-content: center;
 }
 #query {
   margin: 8px 0px;
