@@ -2,12 +2,20 @@ body {
   display: flex;
   flex-direction: column;
   margin: 4px;
-  color: #a9b1d6;
+  color: #c0caf5;
   background-color: #1a1b26;
   font-family: "Lucida Console", "Courier New", monospace;
 }
-h2,
+h1 {
+  color: #f7768e;
+}
+h2 {
+  color: #e0af68;
+}
 h3 {
+  color: #9ece6a;
+}
+h4 {
   color: #7dcfff;
 }
 ul {
@@ -63,10 +71,11 @@ li a:hover,
 }
 #query {
   margin: 8px 0px;
-  height: 32px;
+  padding: 4px;
   color: #a9b1d6;
   background-color: #1a1b26;
   border: 2px solid #a9b1d6;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 #query:focus{
   border: 2px solid #9ece6a;
@@ -74,8 +83,9 @@ li a:hover,
 }
 #header-search {
   margin-right: 4px;
-  height: 32px;
-  color: #a9b1d6;
+  padding: 4px;
+  color: #c0caf5;
   background-color: #1a1b26;
   border: 2px solid #a9b1d6;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
