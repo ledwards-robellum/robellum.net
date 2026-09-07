@@ -7,16 +7,16 @@ body {
   font-family: "Lucida Console", "Courier New", monospace;
 }
 h1 {
-  color: #f7768e;
+  color: #7dcfff;
 }
 h2 {
-  color: #e0af68;
-}
-h3 {
   color: #9ece6a;
 }
+h3 {
+  color: #e0af68;
+}
 h4 {
-  color: #7dcfff;
+  color: #f7768e;
 }
 ul {
   display: flex;
@@ -36,9 +36,12 @@ li a:hover,
   color: #1abc9c;
   cursor: pointer;
 }
+.bold {
+  color: #7aa2f7;
+}
 .title{
   align-self: center;
-  color: #bb9af7;
+  color: #9ece6a;
   font-size: 5vw;
   font-weight: bold;
 }
