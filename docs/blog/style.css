@@ -38,10 +38,24 @@ li a:hover,
 }
 .bold {
   color: #7aa2f7;
+  font-weight: bold;
+}
+.italic {
+  color: #565f89;
+  font-style: italic;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.row > * {
+  margin-top: 16px;
+  margin-bottom: 0;
 }
 .title{
   align-self: center;
-  color: #9ece6a;
+  color: #bb9af7;
   font-size: 5vw;
   font-weight: bold;
 }

@@ -38,6 +38,11 @@ li a:hover,
 }
 .bold {
   color: #7aa2f7;
+  font-weight: bold;
+}
+.italic {
+  color: #565f89;
+  font-style: italic;
 }
 .title{
   align-self: center;
