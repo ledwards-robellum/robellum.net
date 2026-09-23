@@ -24,17 +24,21 @@ ul {
   list-style-type: none;
 }
 li a {
+  color: #73daca;
+  text-decoration: none;
+}
+li a:hover {
+  color: #1abc9c;
+}
+.header > ul > li a {
   margin: 4px;
   padding: 4px;
   border: 2px solid #a9b1d6;
   color: #73daca;
-  text-decoration: none;
 }
-li a:hover,
+.header > ul > li a:hover,
 #header-search:hover {
   border: 2px solid #9ece6a;
-  color: #1abc9c;
-  cursor: pointer;
 }
 .bold {
   color: #7aa2f7;
